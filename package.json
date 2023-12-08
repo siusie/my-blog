@@ -1,5 +1,5 @@
 {
-  "name": "web322-app",
+  "name": "my-blog",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/suscx/web322-app.git"
+    "url": "git+https://github.com/siusie/my-blog.git"
   },
   "author": "Xi Chen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/suscx/web322-app/issues"
+    "url": "https://github.com/siusie/my-blog/issues"
   },
-  "homepage": "https://github.com/suscx/web322-app#readme",
+  "homepage": "https://github.com/siusie/my-blog#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "client-sessions": "^0.8.0",
