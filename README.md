@@ -2,6 +2,8 @@
 
 `my-blog` is a full-stack web application for blogging. Registered users create and manage posts. I created this application to practice back-end development. I wanted to build a simple CRUD app to the best of my current programming skills.
 
+![Screenshot 2023-12-10 at 14-08-08 Simple blogging app](https://github.com/siusie/my-blog/assets/93149998/e97031c4-0c7f-4ccf-8735-b4c8ebdafc68)
+
 ## 🌌 Example live site
 
 Deployed at [link]().
