@@ -1,5 +1,9 @@
 const Sequelize = require('sequelize');
 
+// allows loading of environment variables from .env file
+const env = require("dotenv");
+env.config();
+
 var sequelize = new Sequelize(process.env.POSTGRES_DB, process.env.POSTGRES_DB, process.env.POSTGRES_PASSWORD, {
     host: process.env.POSTGRES_HOST,
     dialect: 'postgres',
@@ -154,7 +158,7 @@ module.exports.addCategory = (categoryData) => {
                 .then(resolve(Category.findAll()))
                 .catch((err) => { reject("Unable to create category") });
         }
-    })
+    });
 }
 
 module.exports.deleteCategoryById = (id) => {
